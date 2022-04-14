@@ -1,0 +1,36 @@
+.Linechart {
+  background-color: #ff0000;
+  width: 31%;
+  border-radius: 5px;
+  height: 100%;
+  position: relative;
+  h2 {
+    color: white;
+    opacity: 0.5;
+    font-size: 12px;
+    width: 50%;
+    margin-left: 7%;
+  }
+  .recharts-responsive-container {
+    // position: absolute;
+    // top: 0%;
+    // bottom: 0%;
+    border-radius: 5px;
+    z-index: 30;
+  }
+  .custom-tooltip {
+    background-color: white;
+    color: black;
+  }
+}
+.formatXAxis {
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  span {
+    color: #ffffff;
+    opacity: 0.5;
+  }
+}
